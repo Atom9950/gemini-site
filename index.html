@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anti-Ragging Cell | Techno India University (TIU)</title>
+    <!-- Tailwind CSS for rapid styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom scroll behavior */
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans leading-normal tracking-normal">
+
+    <!-- Navigation -->
+    <nav class="bg-blue-900 p-4 shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto flex flex-wrap items-center justify-between">
+            <div class="flex items-center text-white font-extrabold text-xl tracking-tight">
+                <!-- Replace with actual TIU Logo -->
+                <span class="bg-white text-blue-900 px-2 py-1 rounded mr-2">TIU</span>
+                Anti-Ragging Cell
+            </div>
+            <div class="block lg:hidden">
+                <button id="menu-toggle" class="flex items-center px-3 py-2 border rounded text-blue-200 border-blue-400 hover:text-white hover:border-white">
+                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+                </button>
+            </div>
+            <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden" id="menu">
+                <div class="text-sm lg:flex-grow mt-4 lg:mt-0 lg:text-right">
+                    <a href="#about" class="block mt-4 lg:inline-block lg:mt-0 text-blue-200 hover:text-white mr-6">What is Ragging?</a>
+                    <a href="#consequences" class="block mt-4 lg:inline-block lg:mt-0 text-blue-200 hover:text-white mr-6">Consequences</a>
+                    <a href="#helpline" class="block mt-4 lg:inline-block lg:mt-0 text-blue-200 hover:text-white mr-6">Helpline</a>
+                    <a href="#report" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-blue-900 hover:bg-white mt-4 lg:mt-0 bg-red-600 border-red-600 transition-colors">Report Incident</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-red-700 text-white text-center py-20 px-4">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">Zero Tolerance Towards Ragging</h1>
+        <p class="text-lg md:text-xl max-w-2xl mx-auto mb-8">Techno India University is completely ragging-free. We ensure a safe, secure, and welcoming environment for all students.</p>
+        <a href="#report" class="bg-white text-red-700 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 transition duration-300">File a Complaint (Anonymous Option)</a>
+    </header>
+
+    <!-- Main Content Grid -->
+    <main class="container mx-auto px-4 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            
+            <!-- What is Ragging -->
+            <section id="about" class="bg-white p-8 rounded-lg shadow-md border-t-4 border-blue-900">
+                <h2 class="text-2xl font-bold mb-4 text-blue-900">What Constitutes Ragging?</h2>
+                <p class="mb-4 text-gray-700">As per the <strong>Hon’ble Supreme Court of India & UGC Guidelines</strong>, ragging includes but is not limited to:</p>
+                <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                    <li>Any conduct by any student or students whether by words spoken or written or by an act which has the effect of teasing, treating or handling with rudeness a fresher or any other student.</li>
+                    <li>Asking a student to do any act which such student will not in the ordinary course do, causing shame, torment, or embarrassment.</li>
+                    <li>Any act of physical or mental abuse (including bullying and exclusion) targeted at another student on the ground of color, race, religion, caste, ethnicity, gender, sexual orientation, etc.</li>
+                </ul>
+            </section>
+
+            <!-- Consequences -->
+            <section id="consequences" class="bg-white p-8 rounded-lg shadow-md border-t-4 border-red-600">
+                <h2 class="text-2xl font-bold mb-4 text-red-700">Consequences of Ragging</h2>
+                <p class="mb-4 text-gray-700">Students found guilty of ragging will face strict disciplinary action, which may include:</p>
+                <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                    <li>Immediate suspension from attending classes and academic privileges.</li>
+                    <li>Withholding or withdrawing scholarships/fellowships.</li>
+                    <li>Debarring from appearing in any test/examination or other evaluation process.</li>
+                    <li>Suspension or expulsion from the hostel.</li>
+                    <li><strong>Rustication from the institution</strong> for a period ranging from 1 to 4 semesters.</li>
+                    <li><strong>Filing of a Police FIR</strong> (First Information Report) under the Indian Penal Code (IPC).</li>
+                </ul>
+            </section>
+        </div>
+
+        <!-- Helpline Banner -->
+        <section id="helpline" class="my-12 bg-blue-100 p-8 rounded-lg text-center shadow-inner border border-blue-200">
+            <h2 class="text-3xl font-bold text-blue-900 mb-2">Emergency Helpline</h2>
+            <p class="text-gray-700 mb-6">If you or someone you know is facing ragging, reach out immediately. We are here to help 24/7.</p>
+            <div class="flex flex-col md:flex-row justify-center gap-6">
+                <div class="bg-white p-4 rounded shadow font-bold text-xl text-blue-800 flex items-center justify-center">
+                    📞 UGC Toll-Free: 1800-180-5522
+                </div>
+                <div class="bg-white p-4 rounded shadow font-bold text-xl text-blue-800 flex items-center justify-center">
+                    ✉️ helpline@antiragging.in
+                </div>
+                <div class="bg-white p-4 rounded shadow font-bold text-xl text-blue-800 flex items-center justify-center">
+                    🚨 TIU Nodal Officer: +91-XXXXXXXXXX
+                </div>
+            </div>
+        </section>
+
+        <!-- Reporting Form -->
+        <section id="report" class="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-xl mb-12">
+            <h2 class="text-3xl font-bold mb-2 text-gray-800 text-center">Report an Incident</h2>
+            <p class="text-center text-gray-500 mb-8">Your identity can remain strictly confidential. Fill out the details below so our Anti-Ragging Squad can take immediate action.</p>
+            
+            <form id="raggingForm" class="space-y-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="name">Your Name (Optional)</label>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500" id="name" type="text" placeholder="Leave blank for anonymity">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="contact">Contact Number / Email (Optional)</label>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500" id="contact" type="text" placeholder="To help us follow up">
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="date">Date of Incident <span class="text-red-500">*</span></label>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500" id="date" type="date" required>
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="location">Location of Incident <span class="text-red-500">*</span></label>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500" id="location" type="text" placeholder="e.g., Hostel Block B, Cafeteria" required>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="description">Detailed Description <span class="text-red-500">*</span></label>
+                    <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 h-32" id="description" placeholder="Please describe what happened, who was involved, and any witnesses..." required></textarea>
+                </div>
+
+                <div class="flex items-center">
+                    <input id="consent" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500" required>
+                    <label for="consent" class="ml-2 text-sm font-medium text-gray-900">I declare that the information provided is true to the best of my knowledge.</label>
+                </div>
+
+                <div class="text-center">
+                    <button class="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded focus:outline-none focus:shadow-outline w-full md:w-auto transition-colors" type="submit">
+                        Submit Confidential Report
+                    </button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white text-center py-6">
+        <div class="container mx-auto px-4">
+            <p class="mb-2">© 2026 Techno India University. All rights reserved.</p>
+            <p class="text-sm text-gray-400">Ragging is a crime. Say NO to ragging.</p>
+        </div>
+    </footer>
+
+    <!-- Simple JS for Mobile Menu & Form Submission Alert -->
+    <script>
+        // Mobile menu toggle
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            document.getElementById('menu').classList.toggle('hidden');
+        });
+
+        // Form submission mock alert
+        document.getElementById('raggingForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Your report has been securely submitted to the TIU Anti-Ragging Nodal Officer. We will take immediate action.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
